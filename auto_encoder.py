@@ -75,3 +75,6 @@ with torch.no_grad():
         val_loss.append(loss)
         val_loss = torch.mean(torch.tensor(val_loss))
         model.train()
+
+
+# Test
